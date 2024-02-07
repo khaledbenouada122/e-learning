@@ -1,0 +1,30 @@
+{
+  "name": "projets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "back": "nodemon server.js",
+    "dev": "concurrently \"nodemon server.js\" \"cd .. && cd frontt && npm start\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material/textfield": "^14.0.0",
+    "@reduxjs/toolkit": "^1.9.0",
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "react-router-dom": "^6.4.3",
+    "run": "^1.4.0",
+    "token": "^0.1.0"
+  }
+}

@@ -1,0 +1,13 @@
+.service-item {
+    background: var(--light);
+    transition: .5s;}
+    .text-center {
+        text-align: center !important;
+    }
+
+    .pt-3 {
+        padding-top: 1rem !important;
+    }
+    div {
+        display: block;
+    }    
